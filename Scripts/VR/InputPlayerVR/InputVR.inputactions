@@ -1,0 +1,93 @@
+{
+    "name": "InputVR",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "144fb2ba-88e5-4a00-8322-a2093dcb6db6",
+            "actions": [
+                {
+                    "name": "OuvrirPorte",
+                    "type": "Button",
+                    "id": "21ceeb14-4a55-4415-bbdf-d3adf38414ec",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RemettreEnPlace",
+                    "type": "Button",
+                    "id": "4e3cc4d5-c64a-43ba-b10a-805220dba5da",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "140c136e-72b0-4d47-a8ae-2a07f54a222a",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OuvrirPorte",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2be61bde-d5d8-4ad6-8a49-dcdd94d3f21b",
+                    "path": "<XRController>{RightHand}/menuButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RemettreEnPlace",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Temperature",
+            "id": "c4498d71-3031-4167-9af2-619dbc4790f8",
+            "actions": [
+                {
+                    "name": "VoirTemp",
+                    "type": "Button",
+                    "id": "32e29a24-d781-4a97-8981-317c97e7653c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "903d805a-676c-4b98-8d1f-3a0a31f31b5a",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VoirTemp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3541d557-71a4-41bc-b808-4392f48a8d09",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "VoirTemp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
